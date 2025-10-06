@@ -1,10 +1,8 @@
-"use server";
-
 import type { Metadata } from "next";
 import type { FC, PropsWithChildren } from "react";
-import "@/tailwind.css";
 import { getCurrentUser } from "@/lib/actions/auth/get-current-user";
 import { CurrentUserProvider } from "@/providers/user-provider";
+import "@/tailwind.css";
 
 export const metadata: Metadata = {
   title: "Quickstart",
